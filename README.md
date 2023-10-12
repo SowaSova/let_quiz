@@ -4,7 +4,7 @@
 
 Склонировать проект
 ```
-git clone git@github.com:SowaSova/let_quiz.git & cd let_quiz/
+git clone git@github.com:SowaSova/let_quiz.git && cd let_quiz/
 ```
 
 Переименовать файл .env_example в .env или создать новый с содержимым:
