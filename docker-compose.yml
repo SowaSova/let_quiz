@@ -9,7 +9,7 @@ services:
     depends_on:
       - db
     command: >
-      bash -c "sleep 15; alembic upgrade head &&
+      bash -c "sleep 30; alembic upgrade head &&
                uvicorn app.main:app --host 0.0.0.0 --port 8000"
   db:
     image: postgres:14-alpine
